@@ -1,0 +1,623 @@
+{
+  "scenes": [
+    {
+      "key": "nhhaze",
+      "dataset": "NHHAZE",
+      "sample": 15,
+      "title": "Non-uniform haze",
+      "methods": [
+        {
+          "id": "hazy",
+          "label": "Hazy input",
+          "full": "assets/gallery/nhhaze-hazy-full.webp",
+          "detail": "assets/gallery/nhhaze-hazy-detail.webp"
+        },
+        {
+          "id": "HazeFlow",
+          "label": "HazeFlow",
+          "full": "assets/gallery/nhhaze-HazeFlow-full.webp",
+          "detail": "assets/gallery/nhhaze-HazeFlow-detail.webp"
+        },
+        {
+          "id": "diff_dehazer",
+          "label": "Diff-Dehazer",
+          "full": "assets/gallery/nhhaze-diff_dehazer-full.webp",
+          "detail": "assets/gallery/nhhaze-diff_dehazer-detail.webp"
+        },
+        {
+          "id": "D3SR_ours",
+          "label": "Hihaze",
+          "full": "assets/gallery/nhhaze-D3SR_ours-full.webp",
+          "detail": "assets/gallery/nhhaze-D3SR_ours-detail.webp"
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "full": "assets/gallery/nhhaze-gt-full.webp",
+          "detail": "assets/gallery/nhhaze-gt-detail.webp"
+        }
+      ],
+      "source_size": [
+        1600,
+        1200
+      ],
+      "roi_xywh": [
+        1163,
+        24,
+        254,
+        252
+      ]
+    },
+    {
+      "key": "densehaze",
+      "dataset": "DENSEHAZE",
+      "sample": 47,
+      "title": "Dense haze",
+      "methods": [
+        {
+          "id": "hazy",
+          "label": "Hazy input",
+          "full": "assets/gallery/densehaze-hazy-full.webp",
+          "detail": "assets/gallery/densehaze-hazy-detail.webp"
+        },
+        {
+          "id": "HazeFlow",
+          "label": "HazeFlow",
+          "full": "assets/gallery/densehaze-HazeFlow-full.webp",
+          "detail": "assets/gallery/densehaze-HazeFlow-detail.webp"
+        },
+        {
+          "id": "diff_dehazer",
+          "label": "Diff-Dehazer",
+          "full": "assets/gallery/densehaze-diff_dehazer-full.webp",
+          "detail": "assets/gallery/densehaze-diff_dehazer-detail.webp"
+        },
+        {
+          "id": "D3SR_ours",
+          "label": "Hihaze",
+          "full": "assets/gallery/densehaze-D3SR_ours-full.webp",
+          "detail": "assets/gallery/densehaze-D3SR_ours-detail.webp"
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "full": "assets/gallery/densehaze-gt-full.webp",
+          "detail": "assets/gallery/densehaze-gt-detail.webp"
+        }
+      ],
+      "source_size": [
+        1600,
+        1200
+      ],
+      "roi_xywh": [
+        307,
+        245,
+        256,
+        258
+      ]
+    },
+    {
+      "key": "ohaze",
+      "dataset": "OHAZE",
+      "sample": 45,
+      "title": "Outdoor scene",
+      "methods": [
+        {
+          "id": "hazy",
+          "label": "Hazy input",
+          "full": "assets/gallery/ohaze-hazy-full.webp",
+          "detail": "assets/gallery/ohaze-hazy-detail.webp"
+        },
+        {
+          "id": "HazeFlow",
+          "label": "HazeFlow",
+          "full": "assets/gallery/ohaze-HazeFlow-full.webp",
+          "detail": "assets/gallery/ohaze-HazeFlow-detail.webp"
+        },
+        {
+          "id": "diff_dehazer",
+          "label": "Diff-Dehazer",
+          "full": "assets/gallery/ohaze-diff_dehazer-full.webp",
+          "detail": "assets/gallery/ohaze-diff_dehazer-detail.webp"
+        },
+        {
+          "id": "D3SR_ours",
+          "label": "Hihaze",
+          "full": "assets/gallery/ohaze-D3SR_ours-full.webp",
+          "detail": "assets/gallery/ohaze-D3SR_ours-detail.webp"
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "full": "assets/gallery/ohaze-gt-full.webp",
+          "detail": "assets/gallery/ohaze-gt-detail.webp"
+        }
+      ],
+      "source_size": [
+        3696,
+        2602
+      ],
+      "roi_xywh": [
+        2451,
+        576,
+        637,
+        601
+      ]
+    },
+    {
+      "key": "ihaze",
+      "dataset": "IHAZE",
+      "sample": 17,
+      "title": "Indoor scene",
+      "methods": [
+        {
+          "id": "hazy",
+          "label": "Hazy input",
+          "full": "assets/gallery/ihaze-hazy-full.webp",
+          "detail": "assets/gallery/ihaze-hazy-detail.webp"
+        },
+        {
+          "id": "HazeFlow",
+          "label": "HazeFlow",
+          "full": "assets/gallery/ihaze-HazeFlow-full.webp",
+          "detail": "assets/gallery/ihaze-HazeFlow-detail.webp"
+        },
+        {
+          "id": "diff_dehazer",
+          "label": "Diff-Dehazer",
+          "full": "assets/gallery/ihaze-diff_dehazer-full.webp",
+          "detail": "assets/gallery/ihaze-diff_dehazer-detail.webp"
+        },
+        {
+          "id": "D3SR_ours",
+          "label": "Hihaze",
+          "full": "assets/gallery/ihaze-D3SR_ours-full.webp",
+          "detail": "assets/gallery/ihaze-D3SR_ours-detail.webp"
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "full": "assets/gallery/ihaze-gt-full.webp",
+          "detail": "assets/gallery/ihaze-gt-detail.webp"
+        }
+      ],
+      "source_size": [
+        4657,
+        2833
+      ],
+      "roi_xywh": [
+        694,
+        535,
+        828,
+        535
+      ]
+    }
+  ],
+  "gpf": [
+    {
+      "key": "gpf_hazeflow",
+      "name": "HazeFlow",
+      "dataset": "O-HAZE",
+      "sample": 21,
+      "raw": "assets/gpf/gpf_hazeflow-raw.webp",
+      "gpf": "assets/gpf/gpf_hazeflow-gpf.webp"
+    },
+    {
+      "key": "gpf_diff_dehazer",
+      "name": "Diff-Dehazer",
+      "dataset": "O-HAZE",
+      "sample": 21,
+      "raw": "assets/gpf/gpf_diff_dehazer-raw.webp",
+      "gpf": "assets/gpf/gpf_diff_dehazer-gpf.webp"
+    }
+  ],
+  "benchmarks": {
+    "I-HAZE": {
+      "PSNR": [
+        15.84,
+        15.68,
+        15.67,
+        15.89,
+        14.09,
+        15.83,
+        13.89,
+        16.12,
+        19.02
+      ],
+      "SSIM": [
+        0.6508,
+        0.7985,
+        0.7075,
+        0.7705,
+        0.4737,
+        0.6709,
+        0.7138,
+        0.7675,
+        0.7888
+      ],
+      "LPIPS": [
+        0.5072,
+        0.4595,
+        0.4638,
+        0.3336,
+        0.6258,
+        0.4421,
+        0.3725,
+        0.4559,
+        0.3217
+      ],
+      "DISTS": [
+        0.2172,
+        0.2033,
+        0.1566,
+        0.2448,
+        0.237,
+        0.1849,
+        0.1861,
+        0.1974,
+        0.0946
+      ],
+      "FID": [
+        197.12,
+        118.08,
+        217.57,
+        120.02,
+        254.86,
+        157.31,
+        153.27,
+        168.12,
+        78.99
+      ],
+      "Q-Align": [
+        3.3117,
+        3.4398,
+        3.604,
+        2.8698,
+        2.9932,
+        3.1771,
+        3.3588,
+        3.4755,
+        4.2306
+      ]
+    },
+    "O-HAZE": {
+      "PSNR": [
+        18.78,
+        13.98,
+        12.75,
+        15.12,
+        15.35,
+        16.62,
+        15.77,
+        16.63,
+        21.28
+      ],
+      "SSIM": [
+        0.6241,
+        0.6601,
+        0.6185,
+        0.6413,
+        0.5442,
+        0.6332,
+        0.5399,
+        0.6484,
+        0.6992
+      ],
+      "LPIPS": [
+        0.3922,
+        0.5383,
+        0.4617,
+        0.4558,
+        0.482,
+        0.4085,
+        0.3987,
+        0.4291,
+        0.3236
+      ],
+      "DISTS": [
+        0.1914,
+        0.2406,
+        0.1998,
+        0.2975,
+        0.2059,
+        0.1935,
+        0.1763,
+        0.2054,
+        0.1087
+      ],
+      "FID": [
+        130.09,
+        139.47,
+        170.16,
+        156.33,
+        187.18,
+        144.15,
+        124.64,
+        152.2,
+        66.86
+      ],
+      "Q-Align": [
+        3.4973,
+        3.3362,
+        3.2017,
+        2.9872,
+        3.05,
+        3.2273,
+        3.2613,
+        3.32,
+        3.9219
+      ]
+    },
+    "Dense-Haze": {
+      "PSNR": [
+        13.67,
+        8.46,
+        11.54,
+        9.9,
+        12.69,
+        10.94,
+        13.18,
+        12.1,
+        17.29
+      ],
+      "SSIM": [
+        0.4536,
+        0.4548,
+        0.5055,
+        0.4432,
+        0.4088,
+        0.4656,
+        0.4636,
+        0.532,
+        0.5676
+      ],
+      "LPIPS": [
+        0.5865,
+        0.7131,
+        0.6492,
+        0.7676,
+        0.7813,
+        0.7149,
+        0.6786,
+        0.6374,
+        0.4774
+      ],
+      "DISTS": [
+        0.3174,
+        0.4617,
+        0.4178,
+        0.6137,
+        0.4036,
+        0.5034,
+        0.458,
+        0.3834,
+        0.2124
+      ],
+      "FID": [
+        256.0,
+        271.59,
+        262.5,
+        272.0,
+        275.2,
+        256.24,
+        210.41,
+        236.11,
+        172.18
+      ],
+      "Q-Align": [
+        2.4576,
+        2.2399,
+        2.9652,
+        1.9165,
+        2.0283,
+        2.1314,
+        2.5013,
+        2.4468,
+        3.3325
+      ]
+    },
+    "NH-HAZE": {
+      "PSNR": [
+        14.53,
+        11.18,
+        12.07,
+        11.79,
+        14.04,
+        12.99,
+        14.26,
+        14.38,
+        18.22
+      ],
+      "SSIM": [
+        0.6119,
+        0.585,
+        0.5989,
+        0.4788,
+        0.5955,
+        0.6079,
+        0.3067,
+        0.6343,
+        0.6664
+      ],
+      "LPIPS": [
+        0.3934,
+        0.4445,
+        0.4398,
+        0.5424,
+        0.4264,
+        0.3936,
+        0.6763,
+        0.418,
+        0.2863
+      ],
+      "DISTS": [
+        0.1938,
+        0.24,
+        0.2106,
+        0.3462,
+        0.2159,
+        0.2094,
+        0.3374,
+        0.2021,
+        0.1272
+      ],
+      "FID": [
+        187.93,
+        200.18,
+        199.34,
+        215.83,
+        198.7,
+        151.51,
+        170.95,
+        162.45,
+        90.1
+      ],
+      "Q-Align": [
+        3.4309,
+        3.4721,
+        3.6929,
+        3.1777,
+        3.3738,
+        3.4304,
+        3.2871,
+        3.1193,
+        3.8066
+      ]
+    }
+  },
+  "methods": [
+    "PTTD",
+    "IPC-Dehaze",
+    "BiLaLoRA",
+    "DiffUIR",
+    "FCDM",
+    "Diff-Dehazer",
+    "DiffDehaze",
+    "HazeFlow",
+    "Hihaze"
+  ],
+  "manual": [
+    {
+      "dataset": "NH-HAZE",
+      "sample": 15,
+      "key": "nhhaze-15",
+      "hazy": "assets/nhhaze-hazy.webp",
+      "ours": "assets/nhhaze-ours.webp",
+      "size": [
+        1600,
+        1200
+      ],
+      "thumb": "assets/thumbs/nhhaze-15.webp"
+    },
+    {
+      "dataset": "I-HAZE",
+      "sample": 34,
+      "key": "ihaze-34",
+      "hazy": "assets/scenes/ihaze-34-hazy.webp",
+      "ours": "assets/scenes/ihaze-34-ours.webp",
+      "size": [
+        4576,
+        3122
+      ],
+      "thumb": "assets/thumbs/ihaze-34.webp"
+    },
+    {
+      "dataset": "O-HAZE",
+      "sample": 45,
+      "key": "ohaze-45",
+      "hazy": "assets/ohaze-hazy.webp",
+      "ours": "assets/ohaze-ours.webp",
+      "size": [
+        3696,
+        2602
+      ],
+      "thumb": "assets/thumbs/ohaze-45.webp"
+    },
+    {
+      "dataset": "I-HAZE",
+      "sample": 17,
+      "key": "ihaze-17",
+      "hazy": "assets/ihaze-hazy.webp",
+      "ours": "assets/ihaze-ours.webp",
+      "size": [
+        4657,
+        2833
+      ],
+      "thumb": "assets/thumbs/ihaze-17.webp"
+    },
+    {
+      "dataset": "O-HAZE",
+      "sample": 25,
+      "key": "ohaze-25",
+      "hazy": "assets/scenes/ohaze-25-hazy.webp",
+      "ours": "assets/scenes/ohaze-25-ours.webp",
+      "size": [
+        4206,
+        3212
+      ],
+      "thumb": "assets/thumbs/ohaze-25.webp"
+    }
+  ],
+  "fade": [
+    {
+      "dataset": "NH-HAZE",
+      "sample": 42,
+      "key": "nhhaze-42",
+      "hazy": "assets/scenes/nhhaze-42-hazy.webp",
+      "ours": "assets/scenes/nhhaze-42-ours.webp",
+      "size": [
+        1600,
+        1200
+      ],
+      "thumb": "assets/thumbs/nhhaze-42.webp"
+    },
+    {
+      "dataset": "Dense-Haze",
+      "sample": 7,
+      "key": "densehaze-7",
+      "hazy": "assets/scenes/densehaze-7-hazy.webp",
+      "ours": "assets/scenes/densehaze-7-ours.webp",
+      "size": [
+        1600,
+        1200
+      ],
+      "thumb": "assets/thumbs/densehaze-7.webp"
+    },
+    {
+      "dataset": "O-HAZE",
+      "sample": 27,
+      "key": "ohaze-27",
+      "hazy": "assets/scenes/ohaze-27-hazy.webp",
+      "ours": "assets/scenes/ohaze-27-ours.webp",
+      "size": [
+        2556,
+        2202
+      ],
+      "thumb": "assets/thumbs/ohaze-27.webp"
+    },
+    {
+      "dataset": "Dense-Haze",
+      "sample": 47,
+      "key": "densehaze-47",
+      "hazy": "assets/densehaze-hazy.webp",
+      "ours": "assets/densehaze-ours.webp",
+      "size": [
+        1600,
+        1200
+      ],
+      "thumb": "assets/thumbs/densehaze-47.webp"
+    },
+    {
+      "dataset": "NH-HAZE",
+      "sample": 18,
+      "key": "nhhaze-18",
+      "hazy": "assets/scenes/nhhaze-18-hazy.webp",
+      "ours": "assets/scenes/nhhaze-18-ours.webp",
+      "size": [
+        1600,
+        1200
+      ],
+      "thumb": "assets/thumbs/nhhaze-18.webp"
+    }
+  ]
+}
