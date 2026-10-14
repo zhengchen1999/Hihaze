@@ -1,7 +1,7 @@
 'use strict';
 const $=id=>document.getElementById(id);
 const reduced=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
-const decode=async src=>{const im=new Image();im.src=src;await im.decode();return im;};
+const decode=async src=>{const im=new Image();im.src=`${src}?v=4`;await im.decode();return im;};
 // A broad timing field for the dehazing display, not a haze estimate.
 function localFade(stage, images){
  if(!CSS.supports('mask-image','linear-gradient(black,transparent)'))return null;
@@ -111,4 +111,4 @@ function benchmarks(data){const datasets=Object.keys(data.benchmarks),metrics=['
  makeTabs($('benchmark-tabs'),datasets,render);render(0);
 }
 $('copy-citation').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('citation-text').textContent);$('copy-status').textContent='Placeholder citation copied.';}catch{const range=document.createRange();range.selectNodeContents($('citation-text'));const selection=getSelection();selection.removeAllRanges();selection.addRange(range);$('copy-status').textContent='Select and copy the highlighted citation.';}});
-(async()=>{try{const response=await fetch('data.json?v=3');if(!response.ok)throw Error(`Data load failed: ${response.status}`);const data=await response.json();new Carousel($('manual-gallery'),data.manual,'manual');const fadeGallery=new Carousel($('fade-gallery'),data.fade,'fade');const scene=new URLSearchParams(location.search).get('scene');if(scene){const index=data.fade.findIndex(item=>item.key===scene);if(index>=0)fadeGallery.go(Math.floor(index/fadeGallery.pageSize));}benchmarks(data);document.body.dataset.ready='true';if(new URLSearchParams(location.search).get('mode')==='fade')$('fade-results').scrollIntoView();}catch(error){console.error(error);document.querySelectorAll('.loading').forEach(el=>el.textContent='The gallery could not load. Please refresh to retry.');}})();
+(async()=>{try{const response=await fetch('data.json?v=4');if(!response.ok)throw Error(`Data load failed: ${response.status}`);const data=await response.json();new Carousel($('manual-gallery'),data.manual,'manual');const fadeGallery=new Carousel($('fade-gallery'),data.fade,'fade');const scene=new URLSearchParams(location.search).get('scene');if(scene){const index=data.fade.findIndex(item=>item.key===scene);if(index>=0)fadeGallery.go(Math.floor(index/fadeGallery.pageSize));}benchmarks(data);document.body.dataset.ready='true';if(new URLSearchParams(location.search).get('mode')==='fade')$('fade-results').scrollIntoView();}catch(error){console.error(error);document.querySelectorAll('.loading').forEach(el=>el.textContent='The gallery could not load. Please refresh to retry.');}})();

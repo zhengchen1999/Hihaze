@@ -516,8 +516,8 @@
       "hazy": "assets/scenes/ihaze-34-4x3-hazy.webp",
       "ours": "assets/scenes/ihaze-34-4x3-ours.webp",
       "size": [
-        4160,
-        3120
+        1600,
+        1200
       ],
       "thumb": "assets/thumbs/ihaze-34.webp"
     },
@@ -528,8 +528,8 @@
       "hazy": "assets/scenes/ohaze-45-4x3-hazy.webp",
       "ours": "assets/scenes/ohaze-45-4x3-ours.webp",
       "size": [
-        3468,
-        2601
+        1600,
+        1200
       ],
       "thumb": "assets/thumbs/ohaze-45.webp"
     },
@@ -540,8 +540,8 @@
       "hazy": "assets/scenes/ihaze-17-4x3-hazy.webp",
       "ours": "assets/scenes/ihaze-17-4x3-ours.webp",
       "size": [
-        3776,
-        2832
+        1600,
+        1200
       ],
       "thumb": "assets/thumbs/ihaze-17.webp"
     },
@@ -552,8 +552,8 @@
       "hazy": "assets/scenes/ohaze-25-4x3-hazy.webp",
       "ours": "assets/scenes/ohaze-25-4x3-ours.webp",
       "size": [
-        4204,
-        3153
+        1600,
+        1200
       ],
       "thumb": "assets/thumbs/ohaze-25.webp"
     },
@@ -564,8 +564,8 @@
       "hazy": "assets/scenes/ohaze-39-4x3-hazy.webp",
       "ours": "assets/scenes/ohaze-39-4x3-ours.webp",
       "size": [
-        3788,
-        2841
+        1600,
+        1200
       ]
     }
   ],
@@ -601,8 +601,8 @@
       "hazy": "assets/scenes/ohaze-27-4x3-hazy.webp",
       "ours": "assets/scenes/ohaze-27-4x3-ours.webp",
       "size": [
-        2556,
-        1917
+        1600,
+        1200
       ],
       "thumb": "assets/thumbs/ohaze-27.webp"
     },
@@ -637,8 +637,8 @@
       "hazy": "assets/scenes/ohaze-25-4x3-hazy.webp",
       "ours": "assets/scenes/ohaze-25-4x3-ours.webp",
       "size": [
-        4204,
-        3153
+        1600,
+        1200
       ]
     }
   ]
