@@ -513,11 +513,11 @@
       "dataset": "I-HAZE",
       "sample": 34,
       "key": "ihaze-34",
-      "hazy": "assets/scenes/ihaze-34-hazy.webp",
-      "ours": "assets/scenes/ihaze-34-ours.webp",
+      "hazy": "assets/scenes/ihaze-34-4x3-hazy.webp",
+      "ours": "assets/scenes/ihaze-34-4x3-ours.webp",
       "size": [
-        4576,
-        3122
+        4160,
+        3120
       ],
       "thumb": "assets/thumbs/ihaze-34.webp"
     },
@@ -525,11 +525,11 @@
       "dataset": "O-HAZE",
       "sample": 45,
       "key": "ohaze-45",
-      "hazy": "assets/ohaze-hazy.webp",
-      "ours": "assets/ohaze-ours.webp",
+      "hazy": "assets/scenes/ohaze-45-4x3-hazy.webp",
+      "ours": "assets/scenes/ohaze-45-4x3-ours.webp",
       "size": [
-        3696,
-        2602
+        3468,
+        2601
       ],
       "thumb": "assets/thumbs/ohaze-45.webp"
     },
@@ -537,11 +537,11 @@
       "dataset": "I-HAZE",
       "sample": 17,
       "key": "ihaze-17",
-      "hazy": "assets/ihaze-hazy.webp",
-      "ours": "assets/ihaze-ours.webp",
+      "hazy": "assets/scenes/ihaze-17-4x3-hazy.webp",
+      "ours": "assets/scenes/ihaze-17-4x3-ours.webp",
       "size": [
-        4657,
-        2833
+        3776,
+        2832
       ],
       "thumb": "assets/thumbs/ihaze-17.webp"
     },
@@ -549,11 +549,11 @@
       "dataset": "O-HAZE",
       "sample": 25,
       "key": "ohaze-25",
-      "hazy": "assets/scenes/ohaze-25-hazy.webp",
-      "ours": "assets/scenes/ohaze-25-ours.webp",
+      "hazy": "assets/scenes/ohaze-25-4x3-hazy.webp",
+      "ours": "assets/scenes/ohaze-25-4x3-ours.webp",
       "size": [
-        4206,
-        3212
+        4204,
+        3153
       ],
       "thumb": "assets/thumbs/ohaze-25.webp"
     },
@@ -561,11 +561,11 @@
       "dataset": "O-HAZE",
       "sample": 39,
       "key": "ohaze-39",
-      "hazy": "assets/scenes/ohaze-39-supplement-hazy.webp",
-      "ours": "assets/scenes/ohaze-39-supplement-ours.webp",
+      "hazy": "assets/scenes/ohaze-39-4x3-hazy.webp",
+      "ours": "assets/scenes/ohaze-39-4x3-ours.webp",
       "size": [
-        300,
-        218
+        3788,
+        2841
       ]
     }
   ],
@@ -598,11 +598,11 @@
       "dataset": "O-HAZE",
       "sample": 27,
       "key": "ohaze-27",
-      "hazy": "assets/scenes/ohaze-27-hazy.webp",
-      "ours": "assets/scenes/ohaze-27-ours.webp",
+      "hazy": "assets/scenes/ohaze-27-4x3-hazy.webp",
+      "ours": "assets/scenes/ohaze-27-4x3-ours.webp",
       "size": [
         2556,
-        2202
+        1917
       ],
       "thumb": "assets/thumbs/ohaze-27.webp"
     },
@@ -634,11 +634,11 @@
       "dataset": "O-HAZE",
       "sample": 25,
       "key": "ohaze-25",
-      "hazy": "assets/scenes/ohaze-25-supplement-hazy.webp",
-      "ours": "assets/scenes/ohaze-25-supplement-ours.webp",
+      "hazy": "assets/scenes/ohaze-25-4x3-hazy.webp",
+      "ours": "assets/scenes/ohaze-25-4x3-ours.webp",
       "size": [
-        300,
-        230
+        4204,
+        3153
       ]
     }
   ]

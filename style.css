@@ -14,13 +14,13 @@ button:focus-visible, a:focus-visible, summary:focus-visible, [tabindex]:focus-v
 #results > .container, #fade-results > .container,
 #quantitative-results > .container { width: 100%; min-width: 0; }
 
-/* Full original aspect ratios; neither comparison image is cropped. */
+/* Approved centered crops share a 4:3 frame across both galleries. */
 .carousel { width: 100%; margin: 1.5rem auto 0; }
 .carousel-window { overflow: hidden; position: relative; }
 .carousel-track { display: flex; align-items: flex-start; transition: transform .5s cubic-bezier(.2, .65, .3, 1); }
 .carousel-page { flex: 0 0 100%; min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; align-items: start; }
 .slide { min-width: 0; }
-.image-stage { position: relative; width: 100%; aspect-ratio: var(--ratio, 1.3333); isolation: isolate; overflow: hidden; }
+.image-stage { position: relative; width: 100%; aspect-ratio: 4 / 3; isolation: isolate; overflow: hidden; }
 .image-stage img { display: block; width: 100%; height: 100%; object-fit: contain; user-select: none; }
 .image-stage .restored { position: absolute; inset: 0; }
 .manual .restored { clip-path: inset(0 0 0 var(--split, 50%)); }

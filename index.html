@@ -13,9 +13,9 @@
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link rel="stylesheet" href="vendor/bulma.min.css">
   <link rel="stylesheet" href="vendor/template.css">
-  <link rel="stylesheet" href="style.css?v=17">
+  <link rel="stylesheet" href="style.css?v=18">
   <script defer src="vendor/fontawesome.all.min.js"></script>
-  <script defer src="app.js?v=15"></script>
+  <script defer src="app.js?v=16"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -86,7 +86,7 @@
           <div class="column is-four-fifths">
             <h2 class="title is-3">Abstract</h2>
             <div class="content has-text-justified paper-prose">
-              <p>Diffusion models have shown promising performance in real-world image dehazing. However, restoring high-resolution images remains challenging due to spatially non-uniform haze and inconsistent predictions across local patches. To address these issues, we propose Hihaze, a one-step diffusion framework for high-resolution real-world dehazing. Hihaze adopts two haze-aware modulation modules: attentive skip compensation (ASC) and a spatial degradation adapter (SDA). ASC selectively transfers reliable encoder information to the variational autoencoder (VAE) decoder, preserving structural details while suppressing haze-degraded features. SDA extracts multi-scale spatial degradation representations and injects them into the U-Net to guide restoration according to local haze variations. Furthermore, we design a training-free global-guided patch fusion (GPF) method. It uses a global prediction to align patch appearance and downweight unreliable predictions, followed by structure-guided detail compensation. Notably, this training-free design also makes GPF a plug-and-play module for other dehazing models. Evaluations on four real-world benchmarks demonstrate that Hihaze outperforms state-of-the-art methods in both restoration quality and inference efficiency. Hihaze achieves PSNR gains of <strong>3.6 dB</strong> on Dense-Haze and <strong>3.6 dB</strong> on NH-HAZE over the best competing methods. Code will be made publicly available.</p>
+              <p>Diffusion models have recently achieved encouraging results in real-world image dehazing. However, restoring high-resolution images remains challenging due to spatially non-uniform haze and inconsistent predictions across local patches. To address these issues, we propose Hihaze, a one-step diffusion framework for high-resolution real-world dehazing. Hihaze adopts two haze-aware modulation modules: attentive skip compensation (ASC) and a spatial degradation adapter (SDA). ASC selectively transfers reliable encoder information to the variational autoencoder (VAE) decoder, preserving structural details while suppressing haze-degraded features. SDA extracts multi-scale spatial degradation representations and injects them into the U-Net to guide restoration according to local haze variations. Furthermore, we design a training-free global-guided patch fusion (GPF) method. It uses a global prediction to align patch appearance and downweight unreliable predictions, followed by structure-guided detail compensation. Notably, this training-free design also makes GPF a plug-and-play module for other dehazing models. Experiments across four real-world benchmarks show that Hihaze surpasses state-of-the-art approaches in both visual quality and inference speed. Specifically, it delivers PSNR improvements of <strong>3.62 dB</strong> on Dense-Haze and <strong>3.69 dB</strong> on NH-HAZE compared with the strongest baselines.</p>
             </div>
           </div>
         </div>
