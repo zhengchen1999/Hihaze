@@ -556,6 +556,17 @@
         3212
       ],
       "thumb": "assets/thumbs/ohaze-25.webp"
+    },
+    {
+      "dataset": "O-HAZE",
+      "sample": 39,
+      "key": "ohaze-39",
+      "hazy": "assets/scenes/ohaze-39-supplement-hazy.webp",
+      "ours": "assets/scenes/ohaze-39-supplement-ours.webp",
+      "size": [
+        300,
+        218
+      ]
     }
   ],
   "fade": [
@@ -618,6 +629,17 @@
         1200
       ],
       "thumb": "assets/thumbs/nhhaze-18.webp"
+    },
+    {
+      "dataset": "O-HAZE",
+      "sample": 25,
+      "key": "ohaze-25",
+      "hazy": "assets/scenes/ohaze-25-supplement-hazy.webp",
+      "ours": "assets/scenes/ohaze-25-supplement-ours.webp",
+      "size": [
+        300,
+        230
+      ]
     }
   ]
 }

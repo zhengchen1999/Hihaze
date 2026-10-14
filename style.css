@@ -15,10 +15,11 @@ button:focus-visible, a:focus-visible, summary:focus-visible, [tabindex]:focus-v
 #quantitative-results > .container { width: 100%; min-width: 0; }
 
 /* Full original aspect ratios; neither comparison image is cropped. */
-.carousel { width: min(100%, calc(630px * var(--scene-ratio, 1.3333))); margin: 1.5rem auto 0; }
+.carousel { width: 100%; margin: 1.5rem auto 0; }
 .carousel-window { overflow: hidden; position: relative; }
 .carousel-track { display: flex; align-items: flex-start; transition: transform .5s cubic-bezier(.2, .65, .3, 1); }
-.slide { flex: 0 0 100%; min-width: 0; }
+.carousel-page { flex: 0 0 100%; min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; align-items: start; }
+.slide { min-width: 0; }
 .image-stage { position: relative; width: 100%; aspect-ratio: var(--ratio, 1.3333); isolation: isolate; overflow: hidden; }
 .image-stage img { display: block; width: 100%; height: 100%; object-fit: contain; user-select: none; }
 .image-stage .restored { position: absolute; inset: 0; }
@@ -37,7 +38,7 @@ button:focus-visible, a:focus-visible, summary:focus-visible, [tabindex]:focus-v
 .gallery-step:hover { background: #f5f5f5; }
 .gallery-step.previous { left: 8px; }
 .gallery-step.next { right: 8px; }
-.slide-bottom { display: flex; justify-content: space-between; align-items: center; gap: .75rem; padding: .75rem 0; min-height: 48px; font-size: .75rem; }
+.slide-bottom { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .75rem; padding: .75rem 0; min-height: 48px; font-size: .75rem; }
 .slide-status { margin: 0; color: #6b6b6b; }
 .slide-actions { display: flex; gap: .5rem; flex-shrink: 0; }
 .slide-actions button { border: 0; border-radius: 4px; padding: .25rem .4rem; background: transparent; color: #4a4a4a; }
@@ -90,6 +91,7 @@ button:focus-visible, a:focus-visible, summary:focus-visible, [tabindex]:focus-v
 .dialog-hint { margin-top: 1rem; font-size: .8rem; color: #6b6b6b; }
 
 @media screen and (max-width: 768px) {
+  .carousel-page { gap: .75rem; }
   /* The original template has no responsive title size. */
   .publication-title { font-size: 2rem !important; overflow-wrap: break-word; }
   .slide-bottom { flex-wrap: wrap; gap: .25rem; font-size: .7rem; }
