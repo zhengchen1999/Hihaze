@@ -83,11 +83,6 @@ button:focus-visible, a:focus-visible, summary:focus-visible, [tabindex]:focus-v
 .citation-note { margin: 1rem 0; color: #6b6b6b; font-size: .85rem; }
 #copy-status { display: block; margin-top: .5rem; font-size: .85rem; }
 
-.visitor-map { width: 300px; max-width: 100%; margin: 1.5rem auto 0; }
-.visitor-map #mapmyvisitors-widget, .visitor-map .mapmyvisitors-map { max-width: 100%; }
-/* Keep the widget's map proportions when its inline size exceeds a small screen. */
-.visitor-map .mapmyvisitors-map { height: auto !important; aspect-ratio: 2.04; background-size: 100% 100%; }
-
 #image-dialog { position: fixed; inset: 0; margin: auto; width: min(1500px, 94vw); max-height: 92vh; overflow: auto; padding: 1.25rem; border: 1px solid #dbdbdb; border-radius: 6px; background: white; }
 #image-dialog::backdrop { background: rgb(0 0 0 / 70%); }
 .dialog-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 1rem; }
