@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="vendor/template.css">
   <link rel="stylesheet" href="style.css?v=23">
   <script defer src="vendor/fontawesome.all.min.js"></script>
-  <script defer src="app.js?v=19"></script>
+  <script defer src="app.js?v=20"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -176,12 +176,16 @@
       <div class="container is-max-desktop">
         <div class="citation-heading">
           <h2 class="title is-3">BibTeX</h2>
-          <button class="button is-small" id="copy-citation" type="button" disabled>
+          <button class="button is-small" id="copy-citation" type="button">
             <span class="icon"><i class="fas fa-copy" aria-hidden="true"></i></span><span>Copy</span>
           </button>
         </div>
-        <!-- TODO: Replace the placeholder citation after publication details are available. -->
-        <pre><code id="citation-text"></code></pre>
+        <pre><code id="citation-text">@article{chen2026hihaze,
+  title = {Hihaze: One-Step Diffusion for High-Resolution Real-World Image Dehazing},
+  author = {Chen, Zheng and Huang, Yuchen and Liu, Xiaoyang and Gong, Jue and Kong, Linghe and Zhang, Yulun},
+  journal = {},
+  year = {2026}
+}</code></pre>
         <span id="copy-status" aria-live="polite" role="status"></span>
       </div>
     </section>
