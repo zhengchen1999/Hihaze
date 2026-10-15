@@ -65,6 +65,8 @@ button:focus-visible, a:focus-visible, summary:focus-visible, [tabindex]:focus-v
 .paper-figure img { display: block; width: 100%; height: auto; }
 .paper-figure figcaption { text-align: center; margin-top: 1rem; }
 .results-disclosure > summary { cursor: pointer; font-size: 1.5rem; font-weight: 600; }
+.results-disclosure + .results-disclosure { margin-top: 2rem; }
+#more-results > summary { cursor: pointer; }
 .disclosure-content { padding-top: 1.5rem; }
 .benchmark-tabs { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
 .benchmark-tabs button { padding: .4rem .8rem; border: 1px solid #dbdbdb; border-radius: 4px; background: white; color: #363636; }
