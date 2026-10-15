@@ -75,7 +75,6 @@ button:focus-visible, a:focus-visible, summary:focus-visible, [tabindex]:focus-v
 #benchmark-table th, #benchmark-table td { padding: .65rem .75rem; vertical-align: middle; }
 #benchmark-table th:first-child { min-width: 130px; }
 #benchmark-table td, #benchmark-table thead th:not(:first-child) { text-align: right; }
-#benchmark-table .ours-row { background: #f5f5f5; }
 .best, .legend-best { color: #c92130; }
 .second, .legend-second { color: #245cba; }
 .fine-print { margin-top: 1rem; font-size: .8rem; }
