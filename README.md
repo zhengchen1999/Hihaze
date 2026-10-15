@@ -85,6 +85,17 @@ Full-image qualitative comparisons from the supplementary material.
 </details>
 </details>
 
+## BibTeX
+
+```bibtex
+@article{chen2026hihaze,
+  title = {Hihaze: One-Step Diffusion for High-Resolution Real-World Image Dehazing},
+  author = {Chen, Zheng and Huang, Yuchen and Liu, Xiaoyang and Gong, Jue and Kong, Linghe and Zhang, Yulun},
+  journal = {},
+  year = {2026}
+}
+```
+
 ## <a name="acknowledgements"></a>💡 Acknowledgements
 
 This project builds upon [OSEDiff](https://github.com/cswry/OSEDiff) , [DINOv3](https://github.com/facebookresearch/dinov3) and [D³SR](https://arxiv.org/abs/2410.04224).
