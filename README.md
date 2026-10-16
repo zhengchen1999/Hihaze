@@ -1,6 +1,6 @@
 # Hihaze: One-Step Diffusion for High-Resolution Real-World Image Dehazing
 
-[Zheng Chen](https://zheng-chen.cn/)<sup>*</sup>, [Yuchen Huang](https://github.com/zhaohai200221)<sup>*</sup>, [Xiaoyang Liu](https://xyliu339.github.io/), [Jue Gong](https://www.juegong.cn/), [Linghe Kong](https://www.cs.sjtu.edu.cn/~linghe.kong/), and [Yulun Zhang](https://yulunzhang.com/)<sup>†</sup>
+[Zheng Chen](https://zheng-chen.cn/)<sup>/*</sup>, [Yuchen Huang](https://github.com/zhaohai200221)<sup>/*</sup>, [Xiaoyang Liu](https://xyliu339.github.io/), [Jue Gong](https://www.juegong.cn/), [Linghe Kong](https://www.cs.sjtu.edu.cn/~linghe.kong/), and [Yulun Zhang](https://yulunzhang.com/)<sup>†</sup>
 
 Shanghai Jiao Tong University<br>
 <sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author: Yulun Zhang, [yulun100@gmail.com](mailto:yulun100@gmail.com).
