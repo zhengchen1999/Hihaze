@@ -10,12 +10,13 @@ Shanghai Jiao Tong University<br>
 <a href="https://github.com/zhengchen1999/Hihaze"><img src="https://visitor-badge.laobi.icu/badge?page_id=zhengchen1999/Hihaze" alt="README visits"></a>
 <a href="https://github.com/zhengchen1999/Hihaze/stargazers"><img src="https://img.shields.io/github/stars/zhengchen1999/Hihaze?style=social" alt="GitHub stars"></a>
 </div>
+[[paper]()] [[project](https://zheng-chen.cn/Hihaze/)] [[arXiv]()]
 
-[project](https://zheng-chen.cn/Hihaze/)
+
 
 #### 🔥🔥🔥 News
 
-**2026-10-16:** This repo is released.
+**2026-10-19:** This repo is released.
 
 ---
 
