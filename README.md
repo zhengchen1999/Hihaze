@@ -92,10 +92,10 @@ Full-image qualitative comparisons from the supplementary material.
 
 ```bibtex
 @article{chen2026hihaze,
-  title = {Hihaze: One-Step Diffusion for High-Resolution Real-World Image Dehazing},
-  author = {Chen, Zheng and Huang, Yuchen and Liu, Xiaoyang and Gong, Jue and Kong, Linghe and Zhang, Yulun},
-  journal = {},
-  year = {2026}
+  title={Hihaze: One-Step Diffusion for High-Resolution Real-World Image Dehazing},
+  author={Chen, Zheng and Huang, Yuchen and Liu, Xiaoyang and Gong, Jue and Kong, Linghe and Zhang, Yulun},
+  journal={arXiv preprint arXiv:2610.25832},
+  year={2026}
 }
 ```
 
