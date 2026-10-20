@@ -6,10 +6,10 @@ Shanghai Jiao Tong University<br>
 <sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author: Yulun Zhang, [yulun100@gmail.com](mailto:yulun100@gmail.com).
 
 <div>
-<a href="https://github.com/zhengchen1999/Hihaze/releases"><img src="https://img.shields.io/github/downloads/zhengchen1999/Hihaze/total?color=green&style=flat" alt="GitHub release downloads"></a>
 <a href="https://github.com/zhengchen1999/Hihaze"><img src="https://visitor-badge.laobi.icu/badge?page_id=zhengchen1999/Hihaze" alt="README visits"></a>
 <a href="https://github.com/zhengchen1999/Hihaze/stargazers"><img src="https://img.shields.io/github/stars/zhengchen1999/Hihaze?style=social" alt="GitHub stars"></a>
 </div>
+
 
 
 [[paper]()] [[project](https://zheng-chen.cn/Hihaze/)] [[arXiv]()]
